@@ -18,10 +18,19 @@ Sistema completo para gestão de clientes, envio de mensagens automáticas via W
 - https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
 
 ---
-## instlação via cpanel suba todos os aquivos para o servidor edite os arquivos  conexao.php  send.php configuracoes.php com seu banco de dados
-suba o banco de dados acesse seu php e suba o banco de dados depois acesse seu dominio login admin@gmail.com  senha 123456
-Baixe o banco de dados caso o banco de dados não subir no deploy
+## 📂 Instalação via cPanel
+
+Suba todos os aquivos para o servidor, edite os arquivos `conexao.php`, `send.php`, `configuracoes.php` com os dados do seu banco de dados.  
+Depois, acesse seu phpMyAdmin e importe o banco de dados.  
+Acesse seu domínio e entre com as credenciais:
+
+- **Usuário:** `admin@gmail.com`
+- **Senha:** `123456`
+
+Se o banco de dados não subir automaticamente, use o link:
 - https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
+
+---
 
 ## 🧱 Instalação via Portainer
 
@@ -55,9 +64,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: admin # mude também no conexão.php
-      MYSQL_USER: admin     # mude também no conexão.php
-      MYSQL_PASSWORD: admin # mude também no conexão.php
+      MYSQL_DATABASE: admin
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
     volumes:
       - dbdata:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
@@ -88,8 +97,6 @@ networks:
   financeiro:
     external: true
 ```
-
----
 
 ### 2. Acesse o Portainer
 
