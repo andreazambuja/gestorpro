@@ -6,6 +6,7 @@ Sistema completo para gestão de clientes, envio de mensagens automáticas via W
 ---
 
 ## 📦 Pré-requisitos
+- Evolution api Version: 2.2.3 em diante
 - hospedagem cpanel
 - Docker opcional
 - Portainer configurado e acessível via navegador
@@ -117,8 +118,8 @@ http://localhost:9000
 
 Após subir os containers, você poderá acessar:
 
-- **Painel do Gestor Pro:** `http://localhost:8081` *(ou seu domínio com Traefik configurado)*
-- **phpMyAdmin:** `http://php.seudominio`
+- **Painel do Gestor Pro:** `http://localhost:8080` *(ou seu domínio com Traefik configurado)*
+- **phpMyAdmin:** `[http://localhost:8081}`
 
 ---
 
