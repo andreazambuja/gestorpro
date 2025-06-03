@@ -29,7 +29,7 @@ Acesse seu domínio e entre com as credenciais:
 - **Senha:** `123456`
 
 Se o banco de dados não subir automaticamente, use o link:
-- https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
+- https://drive.google.com/file/d/1hUVSwDJpHhSbuN14SiTEg-D_1TSe0ZFh/view
 
 ---
 
@@ -118,8 +118,8 @@ http://localhost:9000
 
 Após subir os containers, você poderá acessar:
 
-- **Painel do Gestor Pro:** `http://localhost:8080` *(ou seu domínio com Traefik configurado)*
-- **phpMyAdmin:** `[http://localhost:8081}`
+- **Painel do Gestor Pro:** `http://localhost:21000` *(ou seu domínio com Traefik configurado)*
+- **phpMyAdmin:** `[http://localhost:22000}`
 
 ---
 
