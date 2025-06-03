@@ -44,7 +44,7 @@ version: "3.9"
 
 services:
   app:
-    image: andreazambuja/gestor-crm:1.0
+    image: andreazambuja/gestor-crm:1.3
     networks:
       - financeiro
     labels:
