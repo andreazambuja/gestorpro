@@ -6,8 +6,8 @@ Sistema completo para gestão de clientes, envio de mensagens automáticas via W
 ---
 
 ## 📦 Pré-requisitos
-
-- Docker instalado
+- hospedagem cpanel
+- Docker opcional
 - Portainer configurado e acessível via navegador
 - Conexão com a internet
 - clone nosso repositorio
@@ -18,6 +18,10 @@ Sistema completo para gestão de clientes, envio de mensagens automáticas via W
 - https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
 
 ---
+## instlação via cpanel suba todos os aquivos para o servidor edite os arquivos  conexao.php  send.php configuracoes.php com seu banco de dados
+suba o banco de dados acesse seu php e suba o banco de dados depois acesse seu dominio login admin@gmail.com  senha 123456
+Baixe o banco de dados caso o banco de dados não subir no deploy
+- https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
 
 ## 🧱 Instalação via Portainer
 
