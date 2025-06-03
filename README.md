@@ -12,6 +12,8 @@ Sistema completo para gestão de clientes, envio de mensagens automáticas via W
 - Conexão com a internet
 - clone nosso repositorio
 - git clone https://github.com/andreazambuja/gestorpro.git
+- nosso mini sistema conta com uma api para puxar informações do cliente
+- localhost/api_buscar_cliente.php?telefone={{telefone}}- 
 - Baixe o banco de dados caso o banco de dados não subir no deploy
 - https://drive.google.com/file/d/1m4fJSAJI7gyLDxer4WpgBz4g5PK8LDqA/view?usp=drive_link
 
